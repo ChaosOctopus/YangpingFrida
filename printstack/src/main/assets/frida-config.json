@@ -1,0 +1,10 @@
+{
+    "com.tools.yangpingfrida.MainActivity:clickStack": {
+        "key": "com.tools.yangpingfrida.MainActivity:clickStack",
+        "className": "com.tools.yangpingfrida.MainActivity",
+        "methodName": "clickStack",
+        "paramCount": 0,
+        "returnType": "void"
+    }
+
+}
