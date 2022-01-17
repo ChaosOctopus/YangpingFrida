@@ -5,6 +5,12 @@
         "methodName": "clickStack",
         "paramCount": 0,
         "returnType": "void"
+    },
+    "android.os.Handler:dispatchMessage": {
+        "key": "android.os.Handler:dispatchMessage",
+        "className": "android.os.Handler",
+        "methodName": "dispatchMessage",
+        "paramCount": 1,
+        "returnType": "void"
     }
-
 }
