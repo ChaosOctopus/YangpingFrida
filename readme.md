@@ -1,16 +1,16 @@
-## Get Stack Info by Frida
+# Get Stack Info by Frida
 
 a simple tool to get method stack
 
 为了更好的排查代码运行时问题，打印运行堆栈等信息
 
-### How to use
+## How to use
 
-##### Step 1:  clone this project
+#### Step 1:  clone this project
 
 
 
-##### Step 2: 更高assets目录下的 frida-config.json文件，填入你想打出堆栈信息的方法
+#### Step 2: 更高assets目录下的 frida-config.json文件，填入你想打出堆栈信息的方法
 
 ```java
 //比如app例子中 hook了点击监听中的 clickStack()方法  那么json就写成这样
@@ -46,7 +46,7 @@ a simple tool to get method stack
 
 
 
-##### step3: 将printstack构建成aar  比如: printstack-release.aar, 并集成进你的项目，放到libs里面就可以
+#### step3: 将printstack构建成aar  比如: printstack-release.aar, 并集成进你的项目，放到libs里面就可以
 
 ```java
 1.build.gradle:中添加路径
@@ -64,11 +64,11 @@ implementation (name:' printstack-release', ext:'aar')
 
 
 
-##### step4：运行你的项目。工具设置了打印时间是10min所以只能打印10min内的消息。
+#### step4：运行你的项目。工具设置了打印时间是10min所以只能打印10min内的消息。
 
 
 
-##### step5: 导出日志信息    adb pull  /sdcard/Android/data/你的应用包名/cache/stack_frida.log
+#### step5: 导出日志信息    adb pull  /sdcard/Android/data/你的应用包名/cache/stack_frida.log
 
 ```java
 >>>>>> pid:1379, thread(id:1523, name:frida-stack-worker), timestamp:1642405020522
