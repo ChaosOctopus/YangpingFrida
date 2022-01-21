@@ -1,4 +1,4 @@
-### Get Stack Info by Frida
+## Get Stack Info by Frida
 
 a simple tool to get method stack
 
